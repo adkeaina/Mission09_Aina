@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header';
 import data from './CollegeBasketballTeams.json';
 import TeamCard from './TeamCard';
+import Footer from './assets/Footer';
 
 function App() {
   const CollegeBasketballTeams = data['teams'];
@@ -13,6 +14,7 @@ function App() {
           <TeamCard key={team.cid} team={team} />
         ))}
       </div>
+      <Footer />
     </>
   );
 }
