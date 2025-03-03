@@ -1,0 +1,29 @@
+.team-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.team-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.mascot-name,
+.location {
+  font-size: 14px;
+  color: #555;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+.team-card:active {
+  transform: translateY(0);
+}
